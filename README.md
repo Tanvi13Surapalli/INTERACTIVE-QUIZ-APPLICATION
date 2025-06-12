@@ -25,3 +25,8 @@ Behind the scenes, the main logic of the quiz is handled by JavaScript. It manag
 This project helped me strengthen my front-end development skills, especially working with the DOM, handling events, and using local storage. It also gave me a chance to think about how to improve the user experience—like giving instant feedback, keeping the layout intuitive, and encouraging replayability.
 
 Overall, “Quiz” is more than just a coding exercise—it's a full-featured mini app that reflects both my technical skills and creative approach. It’s something I had a lot of fun building, and I hope users enjoy playing it just as much.
+
+*OUTPUT*:
+![Image](https://github.com/user-attachments/assets/24ca0d95-af50-46d0-8637-25fae66867e2)
+
+![Image](https://github.com/user-attachments/assets/4f8b67c7-0034-4878-9dde-81e3b2908d89)
