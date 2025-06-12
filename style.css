@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.quiz-container {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 20px;
+  width: 90%;
+  max-width: 650px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  text-align: center;
+  color: #333;
+  animation: popIn 0.5s ease;
+}
+
+@keyframes popIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #764ba2;
+}
+
+button {
+  margin: 8px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #38f9d7, #43e97b);
+  transform: scale(1.05);
+}
+
+#progress-container {
+  width: 100%;
+  background: #ddd;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+#progress-bar {
+  height: 100%;
+  background: linear-gradient(to right, #00b09b, #96c93d);
+  width: 0%;
+  transition: width 0.5s ease;
+}
+
+#timer {
+  font-weight: bold;
+  margin-bottom: 12px;
+  color: #ff4081;
+}
+
+#score {
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
