@@ -26,6 +26,8 @@ This project helped me strengthen my front-end development skills, especially wo
 
 Overall, “Quiz” is more than just a coding exercise—it's a full-featured mini app that reflects both my technical skills and creative approach. It’s something I had a lot of fun building, and I hope users enjoy playing it just as much.
 
+*REFERENCE*: GOOGLE, YOUTUBE , CHATGPT
+
 *OUTPUT*:
 ![Image](https://github.com/user-attachments/assets/24ca0d95-af50-46d0-8637-25fae66867e2)
 
